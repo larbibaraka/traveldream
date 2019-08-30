@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-
+import Hero from './hero'
 class index extends Component {
     render() {
         return (
-            <div>
+            <Hero>
                 
-            </div>
+            </Hero>
         );
     }
 }
