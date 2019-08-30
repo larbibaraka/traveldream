@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Menu, Icon } from 'antd';
+import './navbar.scss';
+
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
 class index extends Component {
@@ -8,7 +10,7 @@ class index extends Component {
             <section className="navbar">
                 <ul className="navbar-left">
                     <li className="logo">
-                        <a>eltraveler</a>
+                        <a>TravelDream</a>
                     </li>
                     <li>
                         <a>Flights</a>
@@ -28,7 +30,7 @@ class index extends Component {
                 </ul>  
                 <ul className="navbar-right">
                     <li>
-                        <a className="loginButton">login</a>
+                        <a href="/" className="loginButton" alt="login">login</a>
                     </li>
                 </ul>
             </section>
