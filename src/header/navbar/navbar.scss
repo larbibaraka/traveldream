@@ -13,6 +13,7 @@
                 font-size: 1.6rem;
                 font-weight: bold;
                 margin-right: 3%;     
+                font-family: 'Montserrat', sans-serif;
             }   
         }
     }
@@ -32,8 +33,10 @@
     }
    a {
         color: white;
+        font-family: 'Montserrat', sans-serif;
         &:hover{
             color: #555;   
+            
         }
      }
 

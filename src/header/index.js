@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import Hero from './hero';
-import Navbar from './navbar';
+import Searchbar from './searchbar'; 
 class index extends Component {
     render() {
         return (
-             <Hero/>
+            <>
+              <Hero/>
+              <Searchbar/>
+            </> 
             );
     }
 }
