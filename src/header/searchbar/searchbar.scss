@@ -3,4 +3,10 @@
     max-width: 960px;
     margin: 0 auto;
     z-index: -9999;
+
+    & input {
+        height: 40px;
+        width: 100%;
+        border: 1px solid gainsboro;
+    }
 }
