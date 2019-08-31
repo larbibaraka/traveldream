@@ -1,6 +1,6 @@
 .searchbar{
     width: 100%;
-    max-width: 960px;
+    max-width: 1100px;
     margin: 0 auto;
     z-index: -9999;
 
@@ -8,5 +8,28 @@
         height: 40px;
         width: 100%;
         border: 1px solid gainsboro;
+        outline-style:none;
+        box-shadow:none;
+        padding-left: 3%;
+        font-family: 'Montserrat', sans-serif;
+
+ 
+        &::placeholder{
+            color: #bcbcbc;
+            padding: 3%;
+        }
+        
     }
+    & button {
+        background: #ff4b64;
+        height: 40px;
+        width: 100%;
+        max-width: 100px;
+        color: white;
+        border: none;
+        outline-style:none;
+        box-shadow:none;
+        cursor: pointer;
+    }
+
 }

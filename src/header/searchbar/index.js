@@ -17,7 +17,7 @@ class index extends Component {
                         <div className="gutter-box"> <input placeholder="Where do you want to go ?" /></div>
                     </Col>
                     <Col span={6}>
-                        <div className="gutter-box"> <input type="date"  /></div>
+                        <div className="gutter-box"> <input type="date" placeholder="" /></div>
                     </Col>
                     <Col span={6}>
                         <div className="gutter-box"><button>Search</button></div>
