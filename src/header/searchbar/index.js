@@ -10,16 +10,16 @@ class index extends Component {
              <section className="searchbar">
                 <div>
                     <Row>
-                    <Col span={6}>
+                    <Col span={8}>
                         <div className="gutter-box"> <input placeholder="Where are you leaving from ?" /></div>
                     </Col>
-                    <Col span={6}>
+                    <Col span={8}>
                         <div className="gutter-box"> <input placeholder="Where do you want to go ?" /></div>
                     </Col>
-                    <Col span={6}>
-                        <div className="gutter-box"> <input type="date" placeholder="" /></div>
+                    <Col span={4}>
+                        <div className="gutter-box"> <DatePicker className="my-datepicker"/></div>
                     </Col>
-                    <Col span={6}>
+                    <Col span={2}>
                         <div className="gutter-box"><button>Search</button></div>
                     </Col>
                     </Row>

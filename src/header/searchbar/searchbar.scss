@@ -2,10 +2,11 @@
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-    z-index: -9999;
+    position: relative;
+    top: -19px;
 
     & input {
-        height: 40px;
+        height: 50px;
         width: 100%;
         border: 1px solid gainsboro;
         outline-style:none;
@@ -13,16 +14,14 @@
         padding-left: 3%;
         font-family: 'Montserrat', sans-serif;
 
- 
         &::placeholder{
             color: #bcbcbc;
             padding: 3%;
-        }
-        
+        }         
     }
     & button {
         background: #ff4b64;
-        height: 40px;
+        height: 50px;
         width: 100%;
         max-width: 100px;
         color: white;
@@ -31,5 +30,18 @@
         box-shadow:none;
         cursor: pointer;
     }
+
+    .ant-calendar-picker {
+            width: 100%;
+            & .ant-input{
+                border-radius: 0;
+                font-family: 'Montserrat', sans-serif;
+                outline-style:none;
+                box-shadow:none;
+            }  
+                
+             
+    }
+
 
 }
