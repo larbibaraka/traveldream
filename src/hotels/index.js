@@ -81,9 +81,77 @@ class index extends Component {
             </div>
             </Card></Col>
         </Row>
-       
-    
-        
+
+        <Row  gutter={48} className="hotelswrapper">
+          <Col className="gutter-row" span={8} >
+            <Card
+            //   style={{ width: 350 }}
+              cover={
+                <img
+                  alt="example"
+                  src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                />
+              }
+            >
+            <div className="HotelName">
+
+            </div>
+            <div className="HotelAdvantages">
+                <h5>12,3Km</h5>
+                <h5>Free Wi-Fi</h5>
+            </div>
+            <div className="HotelPricePerNight">
+                <a>30$</a>
+            </div>
+            </Card>
+          </Col>
+          <Col className="gutter-row" span={8}>   
+             <Card
+            //   style={{ width: 350 }}
+              cover={
+                <img
+                  alt="example"
+                  src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                />
+              }
+            >
+            <div className="HotelName">
+
+            </div>
+            <div className="HotelAdvantages">
+                <h5>12,3Km</h5>
+                <h5>Free Wi-Fi</h5>
+            </div>
+            <div className="HotelPricePerNight">
+                <a>30$</a>
+            </div>
+            </Card></Col>
+          <Col className="gutter-row" span={8}>    
+            <Card
+            //   style={{ width: 3580 }}
+              cover={
+                <img
+                  alt="example"
+                  src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                />
+              }
+            >
+            <div className="HotelName">
+
+            </div>
+            <div className="HotelAdvantages">
+                <h5>12,3Km</h5>
+                <h5>Free Wi-Fi</h5>
+            </div>
+            <div className="HotelPricePerNight">
+                <a>30$</a>
+            </div>
+            </Card></Col>
+        </Row>
+
+        <div className="actions">
+             <a className="see_all" >See all hotels</a>
+        </div>      
       </section>
     );
   }

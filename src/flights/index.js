@@ -175,7 +175,7 @@ class index extends Component {
         <br/><br/>
 
         <div className="actions">
-             <a className="see_all_flights" >See all flights</a>
+             <a className="see_all" >See all flights</a>
         </div>
       </section>
     );
