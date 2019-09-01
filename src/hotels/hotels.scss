@@ -3,4 +3,24 @@
      & .hotelswrapper{
         padding: 3% 1%;
      } 
+     & .HotelAdvantages {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3%;
+        & h5 {
+            color: #615F5F;
+            font-size: 0.9rem;    
+            font-weight: 600;
+        }
+     }
+     & .HotelPricePerNight{
+         a {
+                   border: 1px solid #ff4b64;
+                   color: #ff4b64;
+                   padding: 2% 6%;
+                   border-radius: 6%;
+                   font-weight: bold;
+         }
+  
+     }
  }
