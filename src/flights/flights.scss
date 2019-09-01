@@ -10,17 +10,20 @@
         border-radius: 6%;
         font-weight: bold;
     }
+    & .mainInfo {
+          font-weight: bold;
+          color : #615f5f;
+    }
 
     & .title{
         font-weight: bold;
         font-size: 1.4rem;
-        // line-height: 1%;
     }
     & .buttons_choose_wrapper {
         float: right;
     }
     & .buttons_choose_flight_type {
-        color: black;
+        color: #615f5f;
         margin: 3%;
         font-weight: bold;
         font-size: 1rem;
@@ -33,7 +36,10 @@
     & .active {
              color: #ff4b64;
          }
-
+    & .see_all_flights{
+        color: #615f5f;
+        font-weight: bold;
+    }     
 
     
 

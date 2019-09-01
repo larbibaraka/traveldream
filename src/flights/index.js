@@ -171,7 +171,12 @@ class index extends Component {
               </Col>
         </Row>
         <br/>
-        <Table dataSource={dataSource} columns={columns} />;
+         <Table pagination={false} dataSource={dataSource} columns={columns} />
+        <br/><br/>
+
+        <div className="buttons_choose_wrapper">
+             <a className="see_all_flights" >See all flights</a>
+        </div>
       </section>
     );
   }
