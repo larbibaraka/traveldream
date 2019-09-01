@@ -1,3 +1,36 @@
- *{
+ * {
     font-family: 'Montserrat', sans-serif;
+ }
+
+ .App {
+    width: 100%;
+    max-width: 1300px;
+    margin: 2% auto;
+ }
+
+ .title {
+    font-weight: bold;
+    font-size: 1.4rem;
+ }
+
+ .actions {
+    float: right;
+    text-align: right;
+
+    & .actionButtons {
+       color: #615f5f;
+       margin: 3%;
+       font-weight: bold;
+       font-size: 1rem;
+       // line-height: 0;
+
+       & ::hover {
+          color: #ff4b64;
+       }
+
+    }
+
+    & .active {
+       color: #ff4b64;
+    }
  }
