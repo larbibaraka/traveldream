@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../header';
 import Flights from '../flights';
 import Hotels from '../hotels';
+import Attractions from '../attractions';
 import 'antd/dist/antd.css';
 import './app.scss';
  
@@ -12,6 +13,7 @@ function App() {
       <div className="container">
         <Flights/>
         <Hotels/>
+        <Attractions/>
       </div>
     </div>
   );

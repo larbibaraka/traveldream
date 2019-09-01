@@ -1,0 +1,12 @@
+.attractions {
+    margin-top: 7%;
+
+    & .attractionswrapper{
+        padding: 1%;
+
+        & .row {
+             margin-top: 2%;   
+        }
+    }
+
+}
