@@ -2,7 +2,6 @@
     width: 100%;
     max-width: 1300px;
     margin: 2% auto;
-    
     & .price_tag{
         border: 1px solid #ff4b64;
         color: #ff4b64;
@@ -10,8 +9,32 @@
         padding-right: 9%;
         border-radius: 6%;
         font-weight: bold;
-        
     }
+
+    & .title{
+        font-weight: bold;
+        font-size: 1.4rem;
+        // line-height: 1%;
+    }
+    & .buttons_choose_wrapper {
+        float: right;
+    }
+    & .buttons_choose_flight_type {
+        color: black;
+        margin: 3%;
+        font-weight: bold;
+        font-size: 1rem;
+        // line-height: 0;
+       
+      & ::hover{
+            color: #ff4b64;
+      }
+    }
+    & .active {
+             color: #ff4b64;
+         }
+
+
     
 
 }

@@ -159,6 +159,18 @@ class index extends Component {
     ];
     return (
       <section className="flights">
+         <Row >
+              <Col className="gutter-row" span={4}>
+                <h1 className="title">Flights</h1>
+              </Col>
+              <Col className="buttons_choose_wrapper" span={8}>
+                <a className="buttons_choose_flight_type active" >Non stop</a>
+                <a className="buttons_choose_flight_type" >Best Price</a>
+                <a className="buttons_choose_flight_type" >Airline</a>
+                <a className="buttons_choose_flight_type" >Schedule</a>
+              </Col>
+        </Row>
+        <br/>
         <Table dataSource={dataSource} columns={columns} />;
       </section>
     );
