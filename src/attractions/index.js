@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Row, Col } from "antd";
 import "./attractions.scss";
-import eiffileTower from './images/eiffle_tower.png';
-import louvres from './images/louvres.png';
-import NotreDame from './images/NotredameParis.png';
-import forumeHalles from './images/forume_des_halles.png';
-import arcTriomphe from './images/arc_de_triomphe.png';
-import sacreCoeur from './images/sacre_coeur.png';
- 
+import eiffileTower from "./images/eiffle_tower.png";
+import louvres from "./images/louvres.png";
+import NotreDame from "./images/NotredameParis.png";
+import forumeHalles from "./images/forume_des_halles.png";
+import arcTriomphe from "./images/arc_de_triomphe.png";
+import sacreCoeur from "./images/sacre_coeur.png";
+
 class index extends Component {
   render() {
     return (
@@ -26,52 +26,37 @@ class index extends Component {
             <a className="actionButtons">Monuments</a>
           </Col>
         </Row>
-        <div className="attractionswrapper">
-          <Row className="row" gutter={8}>
-            <Col span={8}>
-              <img
-                alt="eiffile Tower"
-                src={eiffileTower}
-              />
-            </Col>
-            <Col span={12}>
-              <Row>
-                <Col span={24}>
-                  <img
-                    alt="louvres"
-                    src={louvres}
-                  />
-                </Col>
-                <br />
-                <Col span={24}>
-                  <img
-                    alt="Notre Dame de paris"
-                    src={NotreDame}
-                  />
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-          <Row className="row" gutter={8}>
-            <Col span={8}>
-              <img
-                alt="forume des Halles"
-                src={forumeHalles}
-              />
-            </Col>
-            <Col span={8}>
-              <img
-                alt="arc de Triomphe"
-                src={arcTriomphe}
-              />
-            </Col>
-            <Col span={8}>
-              <img
-                alt="sacre Coeur"
-                src={sacreCoeur}
-              />
-            </Col>
-          </Row>
+        <div className="grid-container">
+          <div className="paris">
+            <img 
+              src={eiffileTower}
+            /> 
+          </div>
+          <div className="image1">
+          <img 
+              src={forumeHalles}
+            /> 
+          </div>
+          <div className="image2">
+          <img 
+              src={arcTriomphe}
+            /> 
+          </div>
+          <div className="image3">
+          <img 
+              src={sacreCoeur}
+            /> 
+          </div>
+          <div className="stack2">
+          <img 
+              src={NotreDame}
+            /> 
+          </div>
+          <div className="stack1">
+          <img 
+              src={louvres}
+            /> 
+          </div>
         </div>
 
         <div className="actions">
