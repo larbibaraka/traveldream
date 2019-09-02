@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { Row, Col } from "antd";
 import "./attractions.scss";
-import {effileTower} from './images/eiffle_tower.png';
-import {louvres} from './images/louvres.png';
-import {NotreDame} from './images/NotredameParis.png';
-import {NotreDame} from './images/forume_des_halles.png';
-import {NotreDame} from './images/arc_de_triomphe.png';
-import {NotreDame} from './images/sacre_coeur.png';
+import eiffileTower from './images/eiffle_tower.png';
+import louvres from './images/louvres.png';
+import NotreDame from './images/NotredameParis.png';
+import forumeHalles from './images/forume_des_halles.png';
+import arcTriomphe from './images/arc_de_triomphe.png';
+import sacreCoeur from './images/sacre_coeur.png';
+ 
 class index extends Component {
   render() {
     return (
@@ -27,25 +28,25 @@ class index extends Component {
         </Row>
         <div className="attractionswrapper">
           <Row className="row" gutter={8}>
-            <Col span={10}>
+            <Col span={8}>
               <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                alt="eiffile Tower"
+                src={eiffileTower}
               />
             </Col>
             <Col span={12}>
               <Row>
                 <Col span={24}>
                   <img
-                    alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    alt="louvres"
+                    src={louvres}
                   />
                 </Col>
                 <br />
                 <Col span={24}>
                   <img
-                    alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    alt="Notre Dame de paris"
+                    src={NotreDame}
                   />
                 </Col>
               </Row>
@@ -54,20 +55,20 @@ class index extends Component {
           <Row className="row" gutter={8}>
             <Col span={8}>
               <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                alt="forume des Halles"
+                src={forumeHalles}
               />
             </Col>
             <Col span={8}>
               <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                alt="arc de Triomphe"
+                src={arcTriomphe}
               />
             </Col>
             <Col span={8}>
               <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                alt="sacre Coeur"
+                src={sacreCoeur}
               />
             </Col>
           </Row>
