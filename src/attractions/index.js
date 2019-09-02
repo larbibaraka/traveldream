@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import { Row, Col } from "antd";
 import "./attractions.scss";
+import {effileTower} from './images/eiffle_tower.png';
+import {louvres} from './images/louvres.png';
+import {NotreDame} from './images/NotredameParis.png';
+import {NotreDame} from './images/forume_des_halles.png';
+import {NotreDame} from './images/arc_de_triomphe.png';
+import {NotreDame} from './images/sacre_coeur.png';
 class index extends Component {
   render() {
     return (
