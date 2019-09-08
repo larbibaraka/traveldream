@@ -4,6 +4,7 @@ import Flights from '../flights';
 import Hotels from '../hotels';
 import Attractions from '../attractions';
 import Trips from '../trips';
+import Footer from '../footer';
 import 'antd/dist/antd.css';
 import './app.scss';
  
@@ -16,6 +17,7 @@ function App() {
         <Hotels/>
         <Attractions/>
         <Trips/>
+        <Footer/>
       </div>
     </div>
   );

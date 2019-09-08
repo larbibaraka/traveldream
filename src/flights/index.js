@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Table, Row, Col } from "antd";
 import "./flights.scss";
-import {vuelingLogo} from './companieslogo/vueling.svg';
+import vuelingLogo from './companieslogo/Vueling.png';
+import airfrance from './companieslogo/air_france_logo.png';
+import {aa} from './companieslogo/AA.svg';
 import { ReactComponent as Logo } from './companieslogo/logo.svg';
 import ReactSVG from 'react-svg'
 class index extends Component {
@@ -88,7 +90,7 @@ class index extends Component {
           return (
             <Row gutter={16}>
               <Col className="gutter-row" span={6}>
-              <Logo />
+               <img src={vuelingLogo} />
               </Col>
               <Col span={12}>
                 <h3 className="mainInfo">{CompanyName}</h3>
