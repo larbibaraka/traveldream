@@ -26,36 +26,25 @@ class index extends Component {
             <a className="actionButtons">Monuments</a>
           </Col>
         </Row>
-        <div className="grid-container">
-          <div className="paris">
-            <img 
-              src={eiffileTower}
-            /> 
+
+        <div class="grid-container">
+          <div class="image2">
+            <img src={louvres} alt=""/>
           </div>
-          <div className="image1">
-          <img 
-              src={forumeHalles}
-            /> 
+          <div class="image1">
+            <img src={eiffileTower} alt=""/>
           </div>
-          <div className="image2">
-          <img 
-              src={arcTriomphe}
-            /> 
+          <div class="image3">
+            <img src={NotreDame} alt=""/>
           </div>
-          <div className="image3">
-          <img 
-              src={sacreCoeur}
-            /> 
+          <div class="image4">
+            <img src={forumeHalles} alt=""/>
           </div>
-          <div className="stack2">
-          <img 
-              src={NotreDame}
-            /> 
+          <div class="image5">
+            <img src={arcTriomphe} alt=""/>
           </div>
-          <div className="stack1">
-          <img 
-              src={louvres}
-            /> 
+          <div class="image6">
+            <img src={sacreCoeur} alt=""/>            
           </div>
         </div>
 
