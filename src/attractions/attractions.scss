@@ -2,6 +2,7 @@
     margin-top: 7%;
    & .grid-container {
     display: grid;
+    cursor: pointer;
     grid-template-columns: 431px 383px 411px;
     grid-template-rows: 274px 294px 305px;
     grid-template-areas: "image1 image2 image2" "image1 image3 image3" "image4 image5 image6";
