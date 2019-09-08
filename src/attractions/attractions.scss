@@ -3,6 +3,7 @@
    & .grid-container {
     display: grid;
     cursor: pointer;
+    padding-left: 5%; 
     grid-template-columns: 431px 383px 411px;
     grid-template-rows: 274px 294px 305px;
     grid-template-areas: "image1 image2 image2" "image1 image3 image3" "image4 image5 image6";

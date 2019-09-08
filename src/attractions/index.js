@@ -16,7 +16,7 @@ class index extends Component {
           <Col className="gutter-row" span={4}>
             <h1 className="title">Attractions</h1>
           </Col>
-          <Col className="actions" span={12}>
+          <Col className="actions" span={16}>
             <a className="actionButtons active">All</a>
             <a className="actionButtons">Shoppings</a>
             <a className="actionButtons">Shows</a>
