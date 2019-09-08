@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Row, Col } from "antd";
-import eiffileTower from "./images/eiffle_tower.png";
-import louvres from "./images/louvres.png";
-import NotreDame from "./images/NotredameParis.png";
+import forumeHalles from "./images/forume_des_halles.png";
+import arcTriomphe from "./images/arc_de_triomphe.png";
+import sacreCoeur from "./images/sacre_coeur.png";
 import "./trips.scss";
 class index extends Component {
   render() {
@@ -21,7 +21,7 @@ class index extends Component {
         <div className="trips-wrapper">
             <div className="trips-card">
                 <div className="card-image">
-                    <img src={eiffileTower} />
+                    <img src={forumeHalles} />
                 </div>
                 <div className="card-body">
                        <h1>some title</h1>
@@ -33,7 +33,7 @@ class index extends Component {
         <div className="trips-wrapper">
             <div className="trips-card">
                 <div className="card-image">
-                    <img src={eiffileTower} />
+                    <img src={arcTriomphe} />
                 </div>
                 <div className="card-body">
                        <h1>some title</h1>
@@ -45,7 +45,7 @@ class index extends Component {
         <div className="trips-wrapper">
             <div className="trips-card">
                 <div className="card-image">
-                    <img src={eiffileTower} />
+                    <img src={sacreCoeur} />
                 </div>
                 <div className="card-body">
                        <h1>some title</h1>
@@ -53,7 +53,7 @@ class index extends Component {
                 </div>
             </div>
         </div>
-        
+
         <div className="actions">
           <a className="see_all">See all trips</a>
         </div>
