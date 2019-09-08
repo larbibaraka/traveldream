@@ -1,0 +1,26 @@
+.trips {
+    margin-top: 5%;
+    padding: 5%;
+    
+    & .trips-wrapper{
+         margin-bottom: 2%;
+        & .trips-card{
+            display: flex;
+            justify-content: start;
+            height: 20  0px;
+            border: 1px solid #e5e5e5;
+             & .card-image{
+                &  img {
+                    width: 200px;
+                    height: 200px;;
+                }
+            }
+            & .card-body{
+                padding: 3%;
+            }
+           
+        }
+    }
+
+
+}
