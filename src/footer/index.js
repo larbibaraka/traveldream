@@ -47,7 +47,7 @@ class index extends Component {
               <h1>Contact</h1>
               <ul>
                 <li><a href="/">feel free to get in touch via email</a></li>
-                <li><a href="/"></a>support@travelgream.com</li>
+                <li className="activelink"><a href="/"  ></a>support@travelgream.com</li>
               </ul>
             </div>
           </Col>
